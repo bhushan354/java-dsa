@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Scanner;
 
-public class pattern {
+public class patterns1 {
 
     
     // print matrix
