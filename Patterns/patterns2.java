@@ -130,4 +130,40 @@ public class patterns2 {
    //    11 12 13 14 15 
    //    16 17 18 19 20 21 
 
+
+   // print triangle of 0 and 1
+
+   //  public static void main (String args[]) {
+      
+   //      Scanner scanner = new Scanner(System.in);
+   //      System.out.println("Enter a number");
+   //      int n = scanner.nextInt();
+   //    //   int number = 1;
+
+   //      for (int i = 1; i <= n; i++) {
+
+   //         for (int j = 1; j <= i; j++) {
+   //          int sum = i + j;
+   //          if (sum % 2 == 0) { //even
+   //             System.out.print("1 ");
+   //          } else {
+   //             System.out.print("0 ");
+   //          }
+            
+   //       }
+   //       System.out.println();
+   //      }
+   // }
+
+   // output 
+
+   // Enter a number
+   // 6
+   // 1 
+   // 0 1 
+   // 1 0 1 
+   // 0 1 0 1 
+   // 1 0 1 0 1 
+   // 0 1 0 1 0 1 
+
 }
