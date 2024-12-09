@@ -1,6 +1,8 @@
 import java.util.*;
 import java.util.Scanner;
 
+import javax.swing.text.StyledEditorKit;
+
 public class loops {
 
     // public static void main(String args[]) {
@@ -58,5 +60,52 @@ public class loops {
         
     // }
 
+    //problem D codeforces sheet
+    
+    // public static void main(String[] args) {
+    //     Scanner scanner = new Scanner(System.in);
+        
+    //     int n = scanner.nextInt();
+
+    //     int[] input = new int[n];
+    //     String[] result = new String[n];
+
+    //     for (int i = 0; i < n; i++) {
+    //         input[i] = scanner.nextInt();
+    //     }
+
+    //     for (int i = 0; i < n; i++) {
+    //         if (input[i] == 1999) {
+    //             result[i] = "Correct";
+    //             break;
+    //         } else {
+    //             result[i] = "Wrong";
+    //         }
+    //     }
+
+    //     for (int i = 0; i < result.length; i++) {
+    //         System.out.println(result[i]);
+    //     }
+
+    //     scanner.close();
+    // }
+
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (scanner.hasNextInt()) {
+            int password = scanner.nextInt();
+
+            if (password == 1999) {
+                System.out.println("Correct");
+                break;
+            } else {
+                System.out.println("Wrong");
+            }
+        }
+
+        scanner.close();
+    }
 
 }
