@@ -90,22 +90,25 @@ public class loops {
     //     scanner.close();
     // }
 
+// odd even code forces
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    // public static void main(String[] args) {
+    //     Scanner scanner = new Scanner(System.in);
 
-        while (scanner.hasNextInt()) {
-            int password = scanner.nextInt();
+    //     int n = scanner.nextInt();
+    //     boolean hasEvenNumbers = false;
 
-            if (password == 1999) {
-                System.out.println("Correct");
-                break;
-            } else {
-                System.out.println("Wrong");
-            }
-        }
+    //     for (int i = 1; i <= n; i++) {
+    //         if (i % 2 == 0) {
+    //             System.out.println(i);
+    //             hasEvenNumbers = true;
+    //         }
+    //     }
 
-        scanner.close();
-    }
+    //     if (!hasEvenNumbers) {
+    //         System.out.println(-1);
+    //     }
+
+    // }
 
 }
