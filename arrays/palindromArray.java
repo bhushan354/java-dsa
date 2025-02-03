@@ -18,6 +18,7 @@ public class palindromArray{
         }
 
         boolean isPalindrome = false;
+        
         for (int i = 0; i < num; i++){
             if (originalArray[i] == reversedArr[i]){
                  isPalindrome = true;
